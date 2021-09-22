@@ -1,0 +1,45 @@
+body{
+	font-family: "Open Sans","Noto Sans TC"; 
+	font-size: 18px;
+}
+a{
+	transition: color .3s;
+}
+input,button{
+	outline: 0;
+}
+input{
+	padding: 0;
+	border: 0;
+	background: transparent; 
+}
+button{
+	border:0;
+	background: transparent;
+}
+ul{
+	padding: 0;
+	margin: 0;
+}
+::-webkit-input-placeholder { /* WebKit browsers */
+  color: #959595;
+}
+
+::-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+  color: #959595;
+}
+
+::-o-placeholder { /* Mozilla Firefox 19+ */
+  color: #959595;
+}
+
+::-ms-placeholder { /* Internet Explorer 10+ */
+  color: #959595;
+}
+
+::-ms-input-placeholder { /* Internet Explorer 10+ */
+  color: #959595;
+}
+[class^="icon-"]:before, [class*=" icon-"]:before{
+	width: auto;
+}

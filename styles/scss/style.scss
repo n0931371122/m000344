@@ -1,0 +1,25 @@
+@charset 'utf-8';
+@import 'plugins/bootstrap/bootstrap.scss'; 
+@import 'plugins/swiper/swiper.scss';
+@import 'font/css/fontello.css'; 
+@import 'scss//plugins/vue-select.css'; 
+
+// config
+@import 'config/_variable.scss';
+@import 'config/_config.scss';
+@import 'config/_fontSize.scss'; 
+// // layouts 
+@import 'layouts/_reset.scss'; 
+
+@import 'layouts/_common.scss'; 
+@import 'layouts/_layouts.scss';
+@import 'layouts/_keyframes.scss';   
+
+ 
+
+// pages
+
+@import 'layouts/pages/_index.scss';  
+@import 'layouts/pages/_about.scss';  
+@import 'layouts/pages/_sitemap.scss';  
+@import 'layouts/pages/_tech.scss';

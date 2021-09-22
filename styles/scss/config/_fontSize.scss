@@ -1,0 +1,88 @@
+
+
+
+//72 64 46 38 36 34 28 26 24 22 20 16 15 14 12
+.font-72{
+  @include fz(72px); 
+} 
+.font-64{
+  @include fz(64px);
+}   
+.font-46{
+  @include fz(46px);
+}
+.font-38 {
+  @include fz(38px); 
+}
+.font-36 {
+  @include fz(36px);
+}
+.font-34 {
+  @include fz(34px);
+}
+.font-28 {
+  @include fz(28px);
+}
+.font-24 {
+  @include fz(24px);
+}
+.font-22{
+  @include fz(22px);
+}
+.font-20{
+  @include fz(20px);
+}
+.font-16{
+  @include fz(16px);
+}
+.font-15{
+  @include fz(15px);
+}
+.font-14{
+  @include fz(14px);
+}
+.font-12 {
+  @include fz(12px);
+}
+
+
+@media (max-width: 1199px){
+  .font-72{
+    @include fz(60px);
+  }  
+  .font-46{
+    @include fz(40px);
+  }
+  .font-38 {
+    @include fz(34px); 
+  }
+}
+@media (max-width: 767px){
+  .font-72{
+    @include fz(40px);
+  } 
+  .font-64{
+    @include fz(40px);
+  }   
+  .font-46{
+    @include fz(30px);
+  }
+  .font-38{
+    @include fz(24px); 
+  }
+  .font-36 {
+    @include fz(24px);
+  }
+  .font-34 {
+    @include fz(28px);
+  }
+  .font-24 {
+    @include fz(18px);
+  }
+  .font-20 {
+    @include fz(18px);
+  }
+}
+@media (max-width: 575px){
+
+}

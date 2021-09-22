@@ -1,0 +1,52 @@
+.about-section{
+    .circle-dec{
+        top: 174px; 
+        left: 5%;
+        width: 8%;
+    }
+    .lines-dec{
+        bottom: 187px;
+        right: 4.5%;
+        width: 7.2%;
+    }
+    .line-dec{
+        height: 6px;
+    }
+    .jqimgFill{
+        height: 384px;
+        &:nth-child(1){
+            width:40%;
+        }
+    }
+    @media(max-width:1199px){
+        .circle-dec{
+            top: 70px; 
+            left: auto;
+            right: 25%;
+            width: 8%;
+        }
+        .lines-dec{
+            bottom: 100px;
+        }
+        .jqimgFill{
+            height: 205px;
+        }
+    }
+    @media(max-width:991px){
+        .jqimgFill{
+            height: 256px;
+            &:nth-child(1){
+                width: 100%;
+            }
+        }
+    }
+    @media(max-width:575px){
+        .lines-dec{
+           width: 20%;
+           bottom: 50px;
+        }
+        .jqimgFill{
+            height: 375px;
+        }
+    }
+}
