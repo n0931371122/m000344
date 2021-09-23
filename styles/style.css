@@ -13981,13 +13981,13 @@ h1::after, .h1::after {
 .editor img {
   margin: auto;
   display: block;
-  margin-bottom: 30px;
-  margin-top: 30px;
+  margin-bottom: 80px;
+  margin-top: 80px;
   max-width: 100%;
 }
 .editor table {
   margin: auto;
-  margin-bottom: 30px;
+  margin-bottom: 80px;
 }
 .editor table thead {
   font-size: 22px;
@@ -14499,6 +14499,9 @@ header .space {
     padding: 0 !important;
   }
   header .menu .menu-item.active .menu-link {
+    color: #CB394B !important;
+  }
+  header .menu .menu-item.active .menu-link a {
     color: #CB394B !important;
   }
   header .menu .menu-item.active .menu-link i {

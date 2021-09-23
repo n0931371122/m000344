@@ -38,8 +38,8 @@
                             <li class="col-md-3 flex-center position-relative">
                                 <button class="nav-link position-relative active" id="nav-profile-tab" data-bs-toggle="tab" data-bs-target="#nav-profile" type="button" role="tab" aria-controls="nav-profile" aria-selected="true">
                                     <span class="icon d-none d-md-flex flex-center position-relative mx-auto mb-2">
-                                        <img style="width:45.2px;" src="styles/images/tech/icon-1.png" alt="張效煌醫師官方網站">
-                                        <img class="absolute-center" style="width:45.2px;" src="styles/images/tech/icon-1-active.png" alt="張效煌醫師官方網站">
+                                        <img style="width:45.2px;" src="styles/images/tech/icon-1.svg" alt="張效煌醫師官方網站">
+                                        <img class="absolute-center" style="width:45.2px;" src="styles/images/tech/icon-1-active.svg" alt="張效煌醫師官方網站">
                                     </span>
                                     <span class="tag d-block font-20 fw-500">簡介特色</span>
                                 </button>
@@ -47,8 +47,8 @@
                             <li class="col-md-3 flex-center position-relative">
                                 <button class="nav-link position-relative" id="nav-result-tab" data-bs-toggle="tab" data-bs-target="#nav-result" type="button" role="tab" aria-controls="nav-result" aria-selected="false">
                                     <span class="icon d-none d-md-flex flex-center position-relative mx-auto mb-2">
-                                        <img style="width:64.6px;" src="styles/images/tech/icon-2.png" alt="張效煌醫師官方網站">
-                                        <img class="absolute-center" style="width:64.6px;" src="styles/images/tech/icon-2-active.png" alt="張效煌醫師官方網站">
+                                        <img style="width:51.7px;" src="styles/images/tech/icon-2.svg" alt="張效煌醫師官方網站">
+                                        <img class="absolute-center" style="width:51.7px;" src="styles/images/tech/icon-2-active.svg" alt="張效煌醫師官方網站">
                                     </span>
                                     <span class="tag d-block font-20 fw-500">醫療成果</span>
                                 </button>
@@ -56,8 +56,8 @@
                             <li class="col-md-3 flex-center position-relative">
                                 <button class="nav-link position-relative" id="nav-innovation-tab" data-bs-toggle="tab" data-bs-target="#nav-innovation" type="button" role="tab" aria-controls="nav-innovation" aria-selected="false">
                                     <span class="icon d-none d-md-flex flex-center position-relative mx-auto mb-2">
-                                        <img style="width:68px;" src="styles/images/tech/icon-3.png" alt="張效煌醫師官方網站">
-                                        <img class="absolute-center" style="width:68px;" src="styles/images/tech/icon-3-active.png" alt="張效煌醫師官方網站">
+                                        <img style="width:64px;" src="styles/images/tech/icon-3.svg" alt="張效煌醫師官方網站">
+                                        <img class="absolute-center" style="width:64px;" src="styles/images/tech/icon-3-active.svg" alt="張效煌醫師官方網站">
                                     </span>
                                     <span class="tag d-block font-20 fw-500">技術創新</span>
                                 </button>
@@ -65,8 +65,8 @@
                             <li class="col-md-3 flex-center position-relative">
                                 <button class="nav-link position-relative" id="nav-team-tab" data-bs-toggle="tab" data-bs-target="#nav-team" type="button" role="tab" aria-controls="nav-team" aria-selected="false">
                                     <span class="icon d-none d-md-flex flex-center position-relative mx-auto mb-2">
-                                        <img style="width:61.9px;" src="styles/images/tech/icon-4.png" alt="張效煌醫師官方網站">
-                                        <img class="absolute-center" style="width:61.9px;" src="styles/images/tech/icon-4-active.png" alt="張效煌醫師官方網站">
+                                        <img style="width:50px;" src="styles/images/tech/icon-4.svg" alt="張效煌醫師官方網站">
+                                        <img class="absolute-center" style="width:50px;" src="styles/images/tech/icon-4-active.svg" alt="張效煌醫師官方網站">
                                     </span>
                                     <span class="tag d-block font-20 fw-500">團隊介紹</span>
                                 </button>
@@ -133,7 +133,7 @@
                                     <div class="col-xl order-xl-2 ps-xl-5 ms-xl-2 pb-3 pb-md-5 pb-xl-0">
                                         <span class="d-block font-28 text-E09551 fw-bold">02</span>
                                         <h3 class="font-24 fw-bold lh145 les1 mb-3">臺北榮總「導管瓣膜」團隊為全球開發出具有執行「六種」瓣膜植入途徑之醫院，能提供給周邊血管有問題的病人更多選擇且降低嚴重出血的併發症</h3>
-                                        <p class="text-gray4D4D4D mb-2 pb-1">為患者選擇適宜的手術途徑是經導管進行主動脈瓣膜植入術成功與否的決定性因素。傳統的手術途徑包括經「股動脈、鎖骨下動脈、心尖及升主動脈」等四個路徑。</p>
+                                        <p class="text-gray4D4D4D mb-2 pb-1">為患者選擇適宜的手術途徑是經導管進行主動脈瓣膜植入術成功與否的決定性因素。傳統的手術途徑包括經「股動脈、鎖骨下動脈、心尖及升主動脈」等四個路徑。</p>
                                         <p class="text-gray4D4D4D mb-2 pb-1">由股動脈途徑進行手術之死亡率是所有植入途徑最低的，因此是進行此術式的首選途徑。而由鎖骨下動脈植入瓣膜之死亡率則與經股動脈途徑相當，因此是進行主動脈瓣膜植入術的第二選擇。</p>
                                         <p class="text-gray4D4D4D mb-2 pb-1">但有 10% -15%之病人股動脈或鎖骨下動脈過細或有嚴重狹窄、過於彎曲，瓣膜無法由這些途徑植入時，以往會由心尖或經升主動脈途徑進行手術，但近年來發現上述兩種植入途徑發生嚴重出血與死亡率較由股動脈與經鎖骨下動脈植入高出許多，且因傷口較痛，使病患無法儘早下床活動。</p>
                                         <p class="text-gray4D4D4D mb-2 pb-1">臺北榮總「導管瓣膜」團隊針對這些股動脈或鎖骨下動脈過細或有嚴重狹窄、彎曲或有血管瘤的病患，為亞洲首度使用經腹部主動脈或由頸動脈進行經導管主動脈瓣膜植入術，提供周邊血管異常病人更多瓣膜植入途徑的選擇，得以降低嚴重出血及死亡的併發症。</p>
@@ -152,20 +152,18 @@
                                         <div class="flex-center py-4 my-md-3">
                                             <div class="row">
                                                 <div class="col-12 col-md-6">
-                                                    <figure>
-                                                        <img class="w-100" src="styles/images/tech/result-3.jpg" alt="張效煌醫師官方網站">
-                                                        <figcaption class="font-15 text-gray7F7F7F bg-grayF7F7F7 lh16 py-2 px-4">
-                                                            <span class="d-block mt-1">2017年1月7日</span>
-                                                            <span class="d-block mb-1">於中華民國界術學會年會實況示範導管主動脈瓣膜入術</span>
-                                                        </figcaption>
-                                                    </figure>
+                                                    <img class="w-100" src="styles/images/tech/result-3.jpg" alt="張效煌醫師官方網站">
+                                                    <div class="font-15 text-gray7F7F7F bg-grayF7F7F7 lh16 py-2 px-4">
+                                                        <span class="d-block mt-1">2017年1月7日</span>
+                                                        <span class="d-block mb-1">於中華民國界術學會年會實況示範導管主動脈瓣膜入術</span>
+                                                    </div>
                                                 </div>
                                                 <div class="col-12 col-md-6">
                                                     <img class="w-100" src="styles/images/tech/result-4.jpg" alt="張效煌醫師官方網站">
-                                                    <figcaption class="font-15 text-gray7F7F7F bg-grayF7F7F7 lh16 py-2 px-4">
+                                                    <div class="font-15 text-gray7F7F7F bg-grayF7F7F7 lh16 py-2 px-4">
                                                         <span class="d-block mt-1">2018年5月19日</span>
                                                         <span class="d-block mb-1">於亞太心臟學會年會實況示範由頭動脈進行導管主動脈瓣膜植入術</span>
-                                                    </figcaption>
+                                                    </div>
                                                 </div>
                                             </div>
                                         </div>
@@ -257,7 +255,7 @@
                                                 <span class="fw-900">{{item.name}}</span>
                                                 <span>醫師/{{item.education}}</span>
                                             </span>
-                                            <spamn class="d-block fw-bold text-D32C2C">{{item.jobTitle}}</spamn>
+                                            <span class="d-block fw-bold text-D32C2C">{{item.jobTitle}}</span>
                                         </div>
                                     </div>
                                 </div>

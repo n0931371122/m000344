@@ -19,11 +19,15 @@ $(function (){
         });
     }
     else{
-        $("header .menu-item.dropdown").click(function(){
+        $("header .menu-item.mobileDropdown").click(function(){
             $(this).siblings().removeClass("active").find(".dropdown-menu").slideUp();
             $(this).toggleClass("active").find(".dropdown-menu").stop().slideToggle();
             $("header").toggleClass("openMode");     
-
+        });
+        $("header .tech-toggle").click(function(){
+            $(this).parents(".menu-item").siblings().removeClass("active").find(".dropdown-menu").slideUp();
+            $(this).parents(".menu-item").toggleClass("active").find(".dropdown-menu").stop().slideToggle();
+            $("header").toggleClass("openMode");     
         });
     }
 

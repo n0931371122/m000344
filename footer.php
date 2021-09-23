@@ -41,7 +41,7 @@
                 </ul>
             </div>
             <div class="d-table pb-xl-5 mb-2 mb-lg-0 mx-auto me-sm-0">
-                <a class="d-flex align-items-center text-white bg-gray3F3F3F bg-hover-565656 ps-2 pe-4 py-2" href="#" target="_blank">
+                <a class="d-flex align-items-center text-white bg-gray3F3F3F bg-hover-565656 ps-2 pe-4 py-2" href="https://www.facebook.com/pages/category/Cardiologist/%E5%BC%B5%E6%95%88%E7%85%8C%E9%86%AB%E5%B8%AB%E7%9A%84%E5%BF%83%E5%A4%96%E7%B5%AE%E8%AA%9E-110937267704591/" target="_blank">
                     <i class="icon-fb position-relative font-34 ps-2 pe-3"></i>
                     <span class="font-20 les15 ps-4">張效煌醫師的心外絮語</span>
                 </a>

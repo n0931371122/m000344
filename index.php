@@ -255,7 +255,7 @@
                                     <span class="font-24 fw-bold les15 line1 mb-2 mb-md-1 pb-1 pb-md-0">剛完成TAVI手術的可愛大寶貝</span>
                                     <span class="text-gray4D4D4D line1">這是做完TAVI手術的96歲阿公。阿公的孩子很孝順、關心他。阿公也很注意自這是做完TAVI手術的96歲阿公。阿公的孩子很孝順、關心他。阿公也很注意自...</span>
                                 </span>
-                                <span class="more col-auto d-none d-lg-flex flex-center w70 h70 border-primary text-primary flex-shrink-0 me-xl-3 ms-auto">
+                                <span class="more col-auto d-none d-lg-flex flex-center w70 h70 border border-primary text-primary flex-shrink-0 me-xl-3 ms-auto">
                                     <i class="icon-more-2 font-12"></i>
                                 </span>
                             </span>
@@ -272,7 +272,7 @@
                                     <span class="font-24 fw-bold les15 line1 mb-2 mb-md-1 pb-1 pb-md-0">可愛的大寶貝</span>
                                     <span class="text-gray4D4D4D line1">這是做完TAVI手術的96歲阿公。阿公的孩子很孝順、關心他。阿公也很注意自這是做完TAVI手術的96歲阿公。阿公的孩子很孝順、關心他。阿公也很注意自</span>
                                 </span>
-                                <span class="more col-auto d-none d-lg-flex flex-center w70 h70 border-primary text-primary flex-shrink-0 me-xl-1 ms-auto">
+                                <span class="more col-auto d-none d-lg-flex flex-center w70 h70 border border-primary text-primary flex-shrink-0 me-xl-1 ms-auto">
                                     <i class="icon-more-2 font-12"></i>
                                 </span>
                             </span>

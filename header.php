@@ -22,7 +22,7 @@
 						<span class="d-block position-relative">關於我</span>
 					</a>
 				</li>
-				<li class="menu-item position-static dropdown">
+				<li class="menu-item position-static dropdown mobileDropdown">
 					<span class="menu-link d-flex justify-content-between cursor">
 						<span class="d-block position-relative">最新消息</span>
 						<i class="icon-next font-16 d-xl-none"></i>
@@ -42,10 +42,19 @@
 					</div>
 				</li>
 				<li class="menu-item position-static dropdown">
-					<span class="menu-link d-flex justify-content-between cursor">
+					<!-- <span class="menu-link d-flex justify-content-between cursor">
 						<span class="d-block position-relative">技術創新</span>
 						<i class="icon-next font-16 d-xl-none"></i>
-					</span>
+					</span> -->
+					<a class="menu-link d-none d-xl-block" href="techs">
+						<span class="d-block position-relative">技術創新</span>
+					</a>
+					<div class="menu-link d-flex d-xl-none align-items-center justify-content-between">
+						<a class="d-flex justify-content-between" href="techs">
+							<span class="d-block position-relative">技術創新</span>
+						</a>
+						<i class="tech-toggle icon-next font-16 d-xl-none"></i>
+					</div>
 					<div class="dropdown-menu rounded-0 px-xl-4 py-0 m-0">
 						<div class="container position-relative">
 							<a href="techs" class="home tech-back d-none d-xl-flex text-gray7F7F7F text-hover-primary align-items-center justify-content-center position-absolute top-50 start-0 translate-middle-y">
@@ -73,7 +82,7 @@
 					</a>
 				</li>
 			</ul>
-			<a class="fb d-flex d-xl-none align-items-center text-white ps-2 pe-4 py-2 mb-5" href="#" target="_blank">
+			<a class="fb d-flex d-xl-none align-items-center text-white ps-2 pe-4 py-2 mb-5" href="https://www.facebook.com/pages/category/Cardiologist/%E5%BC%B5%E6%95%88%E7%85%8C%E9%86%AB%E5%B8%AB%E7%9A%84%E5%BF%83%E5%A4%96%E7%B5%AE%E8%AA%9E-110937267704591/" target="_blank">
 				<i class="icon-fb position-relative ps-2 pe-3"></i>
 				<span class="font-20 les15 ps-4">張效煌醫師的心外絮語</span>
 			</a>

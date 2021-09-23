@@ -458,6 +458,9 @@ header{
 				&.active{	
 					.menu-link{
 						color:$primary !important;
+						a{
+							color:$primary !important;
+						}
 						i{
 							transform: rotate(90deg);
 							color:$primary;

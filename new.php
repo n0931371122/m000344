@@ -30,7 +30,7 @@
                 </div>
                 <div class="submuenu d-none d-md-block container position-absolute z-1">
                     <div class="d-flex" data-aos="fade-up" data-aos-delay="150">
-                        <a href="./" class="flex-center bg-white text-grayCCCCCC text-hover-white border border-grayD8D8D8 bg-hover-D94A4A w70 h70 flex-shrink-0">
+                        <a href="./" class="flex-center bg-D32C2C bg-hover-D94A4A text-white w70 h70 flex-shrink-0">
                             <i class="icon-home font-22"></i>
                         </a>
                         <div class="bg-white d-block d-md-flex flex-center flex-grow-1 position-relative">
