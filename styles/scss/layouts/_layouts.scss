@@ -134,7 +134,8 @@ html.menuOpen{
 		header{
 			.search-element{	
 				form{
-					background: rgba(0,0,0,0.4);
+					background: white;
+
 					.icon-search{
 						color:white;
 					}
@@ -332,7 +333,7 @@ header{
 		}
 		form{
 			width: 0;
-			transition: all .5s;
+			transition: width .5s,right .3s;
 			background: rgba(255,255,255,0.1);
 			input,
 			button{
@@ -482,13 +483,29 @@ header{
 			}
 		}
 		.search-element{
-			&.active .search-toggle{
-				display: block;
+			&.active{
+				form{
+					border:1px solid rgba(0,0,0,0.1); 
+				}
+				
+				.search-toggle{
+					display: block;
+				}
+				
 			}
 			form{
 				top:calc(100% + 40px);
 				right: -5px;
-				background: rgba(0,0,0,0.4);
+				background: white;
+				button{
+					color:black;
+					.icon-search{
+						color:black !important;
+					}
+				}
+				input{
+					color:black;
+				}
 			}
 		}
 		&.openMode,
@@ -497,7 +514,7 @@ header{
 				color:black !important;
 			}
 			.search-element form{
-				background: rgba(0,0,0,0.4);
+				background: white;
 				.icon-search{
 					color:white;
 				}
@@ -557,6 +574,10 @@ header{
 	@media(max-width:575px){
 		.menu-wrapper{
 			width: 100%;
+		}
+		.search-element.active form{
+			width: calc(100vw - 48px);
+			right: 3px;
 		}
 	}
 }

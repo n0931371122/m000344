@@ -6,7 +6,7 @@
 </head>
 
 <body>
-    <div class="wp">
+    <div class="wp" id="index">
         <?php include "header.php"; ?>
         <!-- main ======================================================================================= -->
         <main>

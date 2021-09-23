@@ -1,3 +1,10 @@
+.menuOpen #index{
+    @media(max-width:767px){
+        header .society .search-toggle:hover{
+            color:black !important;
+        }
+    }
+}
 .index-banner-section{
     .swiper-button{
         &.swiper-button-prev{

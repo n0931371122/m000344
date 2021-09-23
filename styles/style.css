@@ -14210,7 +14210,7 @@ html.menuOpen header .society .search-toggle {
     color: black !important;
   }
   .wp.whiteHeader header .search-element form, .wp.transparentHeader header .search-element form {
-    background: rgba(0, 0, 0, 0.4);
+    background: white;
   }
   .wp.whiteHeader header .search-element form .icon-search, .wp.transparentHeader header .search-element form .icon-search {
     color: white;
@@ -14381,7 +14381,7 @@ header .search-element.active .search-toggle {
 }
 header .search-element form {
   width: 0;
-  transition: all 0.5s;
+  transition: width 0.5s, right 0.3s;
   background: rgba(255, 255, 255, 0.1);
 }
 header .search-element form input,
@@ -14517,19 +14517,31 @@ header .space {
   header .society .search-toggle:hover {
     color: white !important;
   }
+  header .search-element.active form {
+    border: 1px solid rgba(0, 0, 0, 0.1);
+  }
   header .search-element.active .search-toggle {
     display: block;
   }
   header .search-element form {
     top: calc(100% + 40px);
     right: -5px;
-    background: rgba(0, 0, 0, 0.4);
+    background: white;
+  }
+  header .search-element form button {
+    color: black;
+  }
+  header .search-element form button .icon-search {
+    color: black !important;
+  }
+  header .search-element form input {
+    color: black;
   }
   header.openMode .society .search-toggle, header.scrollMode .society .search-toggle {
     color: black !important;
   }
   header.openMode .search-element form, header.scrollMode .search-element form {
-    background: rgba(0, 0, 0, 0.4);
+    background: white;
   }
   header.openMode .search-element form .icon-search, header.scrollMode .search-element form .icon-search {
     color: white;
@@ -14581,6 +14593,10 @@ header .space {
 @media (max-width: 575px) {
   header .menu-wrapper {
     width: 100%;
+  }
+  header .search-element.active form {
+    width: calc(100vw - 48px);
+    right: 3px;
   }
 }
 
@@ -14671,6 +14687,12 @@ footer .copyright {
     transform: translateY(10px);
   }
 }
+@media (max-width: 767px) {
+  .menuOpen #index header .society .search-toggle:hover {
+    color: black !important;
+  }
+}
+
 .index-banner-section .swiper-button.swiper-button-prev {
   left: 50px;
 }
