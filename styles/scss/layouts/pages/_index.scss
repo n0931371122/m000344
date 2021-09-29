@@ -106,7 +106,7 @@
             background: linear-gradient(rgba(0,0,0,0) 10%,rgba(0,0,0,0.5));
         }
         &:hover{
-            flex:0 0 54.5%;
+            
             .text{
                 opacity: 0;
                 pointer-events: none;
@@ -115,6 +115,10 @@
                 opacity: 1;
                 pointer-events: all;
             }
+        }
+        &:nth-child(3){
+            flex:0 0 54.5%;
+            background-position-x: right;
         }
         .text-hover{
             opacity: 0;
@@ -138,7 +142,6 @@
     @media(max-width:1399px){
         .techItem{
             &:hover{
-                flex:0 0 33.33%;
                 .text{
                     opacity: 1;
                     pointer-events: all;
@@ -153,7 +156,7 @@
     }
     @media(max-width:1199px){
         .techItem{
-            height: 600px;
+            height: 400px;
         }
     }
     @media(max-width:991px){
@@ -161,12 +164,15 @@
             box-shadow: none;
         }
         .techItem{
-            height: 400px;
+            height: 420px;
             &:hover{
                 flex:0 0 100%;
             }
             .text-hover{
                 bottom: 50px;
+            }
+            &:nth-child(3){
+                flex:0 0 100%;
             }
         }
     }   
@@ -181,6 +187,15 @@
             .icon-wrapper{
                 width: 45px;
                 height: 35px;
+            }
+            &:nth-child(1){
+                order:3;
+            }
+            &:nth-child(2){
+                order:2;
+            }
+            &:nth-child(3){
+                order:1;
             }
         }
         .font-20{

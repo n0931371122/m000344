@@ -19,8 +19,7 @@
 <link rel="shortcut icon" type="image/x-icon" href="styles/images/web-icon.ico" />
 <link rel="preconnect" href="https://fonts.gstatic.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;500;700;900&family=Noto+Serif+TC:wght@400;500;600;700;900&family=Source+Sans+Pro:wght@400;900&display=swap" rel="stylesheet">
-<link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;500;700;900&family=Noto+Serif+TC:wght@400;500;600;700;900&family=Open+Sans&family=Source+Sans+Pro:wght@400;900&display=swap" rel="stylesheet">
 <link rel="stylesheet" type="text/css" href="styles/scss/plugins/aos.css" />
 <link rel="stylesheet" type="text/css" href="styles/style.css" />
 <script type="application/ld+json">
