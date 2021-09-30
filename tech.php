@@ -109,7 +109,7 @@
                                 <p class="text-gray4D4D4D pb-4">經導管主動脈瓣膜置換手術（Trans-catheter Aortic Valve Implantation，簡稱TAVI），是用於治療嚴重主動脈瓣膜狹窄的新技術。一般是經股動脈（腹股溝處）輸送導管到心臟，將支架瓣膜放置導管中，沿著動脈置於定位點後，將球囊充氣、使狹窄的主動脈瓣膜擴張，然後植入支架瓣膜。手術過程中不需切開心臟，術後傷口小，病人復原時間較短。</p>
                                 <div class="max900 mx-auto my-2 my-md-5">
                                     <div class="video-element" data-aos="fade-up">
-                                        <iframe src="https://www.youtube.com/embed/1AwXa1dMJ6E" class="border-0" allowfullscreen></iframe>
+                                        <iframe src="https://www.youtube.com/watch?v=NZvqys3KhHA" class="border-0" allowfullscreen></iframe>
                                     </div>
                                 </div>
                                 <h3 class="font-24 fw-bold lh18 pt-4">手術成果榮獲國家醫療品質獎，領先國際</h3>
