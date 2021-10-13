@@ -42,6 +42,7 @@ $(function (){
 
     $("#new").length==0? $("header .new-back").addClass("d-xl-none"):"";
     $("#tech").length==0? $("header .tech-back").addClass("d-xl-none"):"";
+    $("#edu").length==0? $("header .edu-back").addClass("d-xl-none"):"";
     /* ==========================================================================
 		[page]
      ==========================================================================*/
@@ -77,6 +78,20 @@ $(function (){
         $(".nav-link").click(function(){
             $(".nav-toggle span").text($(this).find(".tag").text());
             $('.nav-tabs').slideUp();
+            $(this).parents(".swiper-slide").siblings().find(".nav-link").removeClass("active");
+        });
+    }
+    else{
+        const swiper = new Swiper('.test', {
+            slidesPerView: 4,
+            pagination: {
+                el: '.swiper-pagination',
+                type: 'bullets',
+                clickable:true
+            },
+        })
+        $(".nav-link").click(function(){
+            $(this).parents(".swiper-slide").siblings().find(".nav-link").removeClass("active");
         });
     }
     /* ==========================================================================

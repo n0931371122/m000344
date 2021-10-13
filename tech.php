@@ -29,52 +29,76 @@
                     </div>
                 </div>
                 <div class="content-block position-relative z-1 px-4 pt-4 pt-md-0 pb-5">
-                    <div class="max825 position-relative z-1 mx-auto" data-aos="fade-up">
-                        <span onClick="$(this).next().stop().slideToggle()" class="nav-toggle bg-D32C2C text-white d-flex d-md-none justify-content-between align-items-center px-4 py-2">
+                    <div class="position-relative z-1" data-aos="fade-up">
+                        <span onClick="$(this).next().find('.nav-tabs').stop().slideToggle()" class="nav-toggle bg-D32C2C text-white d-flex d-md-none justify-content-between align-items-center px-4 py-2">
                             <span>簡介特色</span>
                             <i class="icon-plus font-16"></i>
                         </span>
-                        <ul class="noneStyle row d-md-flex nav nav-tabs border-0 z-1 px-md-4 px-lg-0">
-                            <li class="col-md-3 flex-center position-relative">
-                                <button class="nav-link position-relative active" id="nav-profile-tab" data-bs-toggle="tab" data-bs-target="#nav-profile" type="button" role="tab" aria-controls="nav-profile" aria-selected="true">
-                                    <span class="icon d-none d-md-flex flex-center position-relative mx-auto mb-2">
-                                        <img style="width:45.2px;" src="styles/images/tech/icon-1.svg" alt="張效煌醫師官方網站">
-                                        <img class="absolute-center" style="width:45.2px;" src="styles/images/tech/icon-1-active.svg" alt="張效煌醫師官方網站">
-                                    </span>
-                                    <span class="tag d-block font-20 fw-500">簡介特色</span>
-                                </button>
-                            </li>
-                            <li class="col-md-3 flex-center position-relative">
-                                <button class="nav-link position-relative" id="nav-result-tab" data-bs-toggle="tab" data-bs-target="#nav-result" type="button" role="tab" aria-controls="nav-result" aria-selected="false">
-                                    <span class="icon d-none d-md-flex flex-center position-relative mx-auto mb-2">
-                                        <img style="width:51.7px;" src="styles/images/tech/icon-2.svg" alt="張效煌醫師官方網站">
-                                        <img class="absolute-center" style="width:51.7px;" src="styles/images/tech/icon-2-active.svg" alt="張效煌醫師官方網站">
-                                    </span>
-                                    <span class="tag d-block font-20 fw-500">醫療成果</span>
-                                </button>
-                            </li>
-                            <li class="col-md-3 flex-center position-relative">
-                                <button class="nav-link position-relative" id="nav-innovation-tab" data-bs-toggle="tab" data-bs-target="#nav-innovation" type="button" role="tab" aria-controls="nav-innovation" aria-selected="false">
-                                    <span class="icon d-none d-md-flex flex-center position-relative mx-auto mb-2">
-                                        <img style="width:64px;" src="styles/images/tech/icon-3.svg" alt="張效煌醫師官方網站">
-                                        <img class="absolute-center" style="width:64px;" src="styles/images/tech/icon-3-active.svg" alt="張效煌醫師官方網站">
-                                    </span>
-                                    <span class="tag d-block font-20 fw-500">技術創新</span>
-                                </button>
-                            </li>
-                            <li class="col-md-3 flex-center position-relative">
-                                <button class="nav-link position-relative" id="nav-team-tab" data-bs-toggle="tab" data-bs-target="#nav-team" type="button" role="tab" aria-controls="nav-team" aria-selected="false">
-                                    <span class="icon d-none d-md-flex flex-center position-relative mx-auto mb-2">
-                                        <img style="width:50px;" src="styles/images/tech/icon-4.svg" alt="張效煌醫師官方網站">
-                                        <img class="absolute-center" style="width:50px;" src="styles/images/tech/icon-4-active.svg" alt="張效煌醫師官方網站">
-                                    </span>
-                                    <span class="tag d-block font-20 fw-500">團隊介紹</span>
-                                </button>
-                            </li>
-                        </ul>
+                        <div class="max825 mx-auto px-md-4 px-lg-0">
+                            <div class="swiper-container nav nav-tabs border-0 test">
+                                <div class="swiper-wrapper">
+                                    <div class="swiper-slide">
+                                        <div class="flex-center position-relative my-md-3">
+                                            <button class="nav-link position-relative active" id="nav-1-tab" data-bs-toggle="tab" data-bs-target="#nav-1" type="button" role="tab" aria-controls="nav-1" aria-selected="true">
+                                                <span class="icon d-none d-md-flex flex-center position-relative mx-auto mb-2">
+                                                    <img style="width:45.2px;" src="styles/images/tech/icon-1.svg" alt="張效煌醫師官方網站">
+                                                    <img class="absolute-center" style="width:45.2px;" src="styles/images/tech/icon-1-active.svg" alt="張效煌醫師官方網站">
+                                                </span>
+                                                <span class="tag d-block font-20 fw-500">簡介特色</span>
+                                            </button>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="flex-center position-relative my-md-3">
+                                            <button class="nav-link position-relative" id="nav-2-tab" data-bs-toggle="tab" data-bs-target="#nav-2" type="button" role="tab" aria-controls="nav-2" aria-selected="false">
+                                                <span class="icon d-none d-md-flex flex-center position-relative mx-auto mb-2">
+                                                    <img style="width:51.7px;" src="styles/images/tech/icon-2.svg" alt="張效煌醫師官方網站">
+                                                    <img class="absolute-center" style="width:51.7px;" src="styles/images/tech/icon-2-active.svg" alt="張效煌醫師官方網站">
+                                                </span>
+                                                <span class="tag d-block font-20 fw-500">醫療成果</span>
+                                            </button>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="flex-center position-relative my-md-3">
+                                            <button class="nav-link position-relative" id="nav-3-tab" data-bs-toggle="tab" data-bs-target="#nav-3" type="button" role="tab" aria-controls="nav-3" aria-selected="false">
+                                                <span class="icon d-none d-md-flex flex-center position-relative mx-auto mb-2">
+                                                    <img style="width:64px;" src="styles/images/tech/icon-3.svg" alt="張效煌醫師官方網站">
+                                                    <img class="absolute-center" style="width:64px;" src="styles/images/tech/icon-3-active.svg" alt="張效煌醫師官方網站">
+                                                </span>
+                                                <span class="tag d-block font-20 fw-500">技術創新</span>
+                                            </button>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="flex-center position-relative my-md-3">
+                                            <button class="nav-link position-relative" id="nav-4-tab" data-bs-toggle="tab" data-bs-target="#nav-4" type="button" role="tab" aria-controls="nav-4" aria-selected="false">
+                                                <span class="icon d-none d-md-flex flex-center position-relative mx-auto mb-2">
+                                                    <img style="width:50px;" src="styles/images/tech/icon-4.svg" alt="張效煌醫師官方網站">
+                                                    <img class="absolute-center" style="width:50px;" src="styles/images/tech/icon-4-active.svg" alt="張效煌醫師官方網站">
+                                                </span>
+                                                <span class="tag d-block font-20 fw-500">團隊介紹</span>
+                                            </button>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="flex-center position-relative my-md-3">
+                                            <button class="nav-link position-relative" id="nav-5-tab" data-bs-toggle="tab" data-bs-target="#nav-5" type="button" role="tab" aria-controls="nav-5" aria-selected="false">
+                                                <span class="icon d-none d-md-flex flex-center position-relative mx-auto mb-2">
+                                                    <img style="width:50px;" src="styles/images/tech/icon-4.svg" alt="張效煌醫師官方網站">
+                                                    <img class="absolute-center" style="width:50px;" src="styles/images/tech/icon-4-active.svg" alt="張效煌醫師官方網站">
+                                                </span>
+                                                <span class="tag d-block font-20 fw-500">test</span>
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-pagination"></div>
+                            </div>
+                        </div>
                     </div>
                     <div class="tab-content les05 lh18 pt-5 py-md-3 py-md-5 mt-xl-5" id="nav-tabContent">
-                        <div class="tab-pane nav-profile fade max1400 mx-auto show active" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab">
+                        <div class="tab-pane nav-profile fade max1400 mx-auto show active" id="nav-1" role="tabpanel" aria-labelledby="nav-1-tab">
                             <h2 class="d-table NotoSerifTC font-32 fw-600 position-relative les2 pt-2 pb-3 mb-md-4 mb-xl-5 mx-auto">簡介及手術特點</h2>
                             <div>
                                 <div class="row g-0 pb-5 mb-md-5">
@@ -116,7 +140,7 @@
                                 <p class="text-gray4D4D4D">經導管主動脈瓣膜置換手術是用於治療嚴重主動脈瓣膜狹窄的新技術。一般是經股動脈（腹股溝處）輸送導管到心臟，將支架瓣膜放置導管中，沿著動脈置於定位點後，將球囊充氣、使狹窄的主動脈瓣膜擴張，然後植入支架瓣膜。手術過程中不需切開心臟，術後傷口小，病人復原時間較短。(demo文字)</p>
                             </div>
                         </div>
-                        <div class="tab-pane fade max1400 mx-auto" id="nav-result" role="tabpanel" aria-labelledby="nav-result-tab">
+                        <div class="tab-pane fade max1400 mx-auto" id="nav-2" role="tabpanel" aria-labelledby="nav-2-tab">
                             <h2 class="d-table NotoSerifTC font-32 fw-600 position-relative les2 pt-2 pb-3 mb-md-4 mb-xl-5 mx-auto">北榮TAVI醫療成果</h2>
                             <div class="pt-md-4">
                                 <div class="row align-items-center g-0 pt-xl-3 pb-5 mb-md-4">
@@ -203,7 +227,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="tab-pane fade max1400 mx-auto" id="nav-innovation" role="tabpanel" aria-labelledby="nav-innovation-tab">
+                        <div class="tab-pane fade max1400 mx-auto" id="nav-3" role="tabpanel" aria-labelledby="nav-3-tab">
                             <h2 class="d-table NotoSerifTC font-32 fw-600 position-relative les2 pt-2 pb-3 mb-md-4 mb-xl-5 mx-auto">TAVI三大創新技術</h2>
                             <div class="pt-md-4">
                                 <div class="pb-3 pb-md-5 mb-md-2">
@@ -241,8 +265,28 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="tab-pane nav-team fade max1500 mx-auto" id="nav-team" role="tabpanel" aria-labelledby="nav-team-tab">
+                        <div class="tab-pane nav-team fade max1500 mx-auto" id="nav-4" role="tabpanel" aria-labelledby="nav-4-tab">
                             <h2 class="d-table NotoSerifTC font-32 fw-600 position-relative les2 pt-2 pb-3 mb-md-4 mb-xl-5 mx-auto">北榮導管瓣膜(TAVI)團隊</h2>
+                            <div class="row g-6 text-center pt-md-4">
+                                <div v-for="(item,index) in personItem" :key="index" class="col-12 col-md-6 col-lg-4 col-xl-3 mb-4 pb-2">
+                                    <div>
+                                        <h3 class="d-none">{{item.name}}</h3>
+                                        <div class="jqimgFill">
+                                            <img :src="item.img" :alt="item.alt">
+                                        </div>
+                                        <div class="border border-grayD8D8D8 py-3">
+                                            <span class="d-block NotoSansTC font-24">
+                                                <span class="fw-900">{{item.name}}</span>
+                                                <span>醫師/{{item.education}}</span>
+                                            </span>
+                                            <span class="d-block fw-bold text-D32C2C">{{item.jobTitle}}</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane nav-team fade max1500 mx-auto" id="nav-5" role="tabpanel" aria-labelledby="nav-5-tab">
+                            <h2 class="d-table NotoSerifTC font-32 fw-600 position-relative les2 pt-2 pb-3 mb-md-4 mb-xl-5 mx-auto">test</h2>
                             <div class="row g-6 text-center pt-md-4">
                                 <div v-for="(item,index) in personItem" :key="index" class="col-12 col-md-6 col-lg-4 col-xl-3 mb-4 pb-2">
                                     <div>

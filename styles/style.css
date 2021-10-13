@@ -7375,6 +7375,7 @@ textarea.form-control-lg {
 }
 
 .sticky-top {
+  position: -webkit-sticky;
   position: sticky;
   top: 0;
   z-index: 1020;
@@ -7382,6 +7383,7 @@ textarea.form-control-lg {
 
 @media (min-width: 576px) {
   .sticky-sm-top {
+    position: -webkit-sticky;
     position: sticky;
     top: 0;
     z-index: 1020;
@@ -7389,6 +7391,7 @@ textarea.form-control-lg {
 }
 @media (min-width: 768px) {
   .sticky-md-top {
+    position: -webkit-sticky;
     position: sticky;
     top: 0;
     z-index: 1020;
@@ -7396,6 +7399,7 @@ textarea.form-control-lg {
 }
 @media (min-width: 992px) {
   .sticky-lg-top {
+    position: -webkit-sticky;
     position: sticky;
     top: 0;
     z-index: 1020;
@@ -7403,6 +7407,7 @@ textarea.form-control-lg {
 }
 @media (min-width: 1200px) {
   .sticky-xl-top {
+    position: -webkit-sticky;
     position: sticky;
     top: 0;
     z-index: 1020;
@@ -7410,6 +7415,7 @@ textarea.form-control-lg {
 }
 @media (min-width: 1400px) {
   .sticky-xxl-top {
+    position: -webkit-sticky;
     position: sticky;
     top: 0;
     z-index: 1020;
@@ -7612,6 +7618,7 @@ textarea.form-control-lg {
 }
 
 .position-sticky {
+  position: -webkit-sticky !important;
   position: sticky !important;
 }
 
@@ -15327,7 +15334,7 @@ footer .copyright {
   transform: translateY(-50%);
 }
 .tech-section .content-block {
-  margin-top: -80px;
+  margin-top: -100px;
 }
 .tech-section .content-block .nav-link {
   border-radius: 50%;
@@ -15374,6 +15381,12 @@ footer .copyright {
 }
 .tech-section .content-block .nav-link .icon img:nth-child(2) {
   opacity: 0;
+}
+.tech-section .content-block .swiper-pagination {
+  position: static;
+}
+.tech-section .content-block .swiper-pagination .swiper-pagination-bullet-active {
+  background: #D32C2C;
 }
 .tech-section .content-block .tab-pane h2::before, .tech-section .content-block .tab-pane .h2::before, .tech-section .content-block .tab-pane h2:after, .tech-section .content-block .tab-pane .h2:after {
   content: "";
@@ -15463,6 +15476,12 @@ footer .copyright {
   }
   .tech-section .content-block .tab-pane h2::before, .tech-section .content-block .tab-pane .h2::before, .tech-section .content-block .tab-pane h2::after, .tech-section .content-block .tab-pane .h2::after {
     display: none;
+  }
+  .tech-section .content-block .swiper-wrapper {
+    display: block;
+  }
+  .tech-section .content-block .swiper-slide {
+    height: auto;
   }
 }
 @media (max-width: 575px) {

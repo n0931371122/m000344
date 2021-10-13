@@ -69,16 +69,27 @@
 						</div>
 					</div>
 				</li>
-				<li class="menu-item position-static">
-					<a class="menu-link d-flex justify-content-between" href="edus">
+				<li class="menu-item position-static dropdown mobileDropdown">
+					<span class="menu-link d-flex justify-content-between cursor">
 						<span class="d-block position-relative">衛教園地</span>
 						<i class="icon-next font-16 d-xl-none"></i>
-					</a>
+					</span>
+					<div class="dropdown-menu rounded-0 px-xl-4 py-0 m-0">
+						<div class="container position-relative">
+							<a href="edus" class="home edu-back d-none d-xl-flex text-gray7F7F7F text-hover-primary align-items-center justify-content-center position-absolute top-50 start-0 translate-middle-y">
+								<img src="styles/images/common/home.png" alt="張效煌醫師官方網站">
+								<span class="d-block ps-4 ms-4">返回列表</span>
+							</a>
+							<ul class="noneStyle d-xl-flex justify-content-center px-0">
+								<li><a class="dropdown-item py-xl-4 px-xl-4" href="edus"><span class="mx-xl-3">一般疾病</span></a></li>
+								<li><a class="dropdown-item py-xl-4 px-xl-4" href="edus"><span class="mx-xl-3">TAVI</span></a></li>
+							</ul>
+						</div>
+					</div>
 				</li>
 				<li class="menu-item position-static">
 					<a class="menu-link d-flex justify-content-between" href="babies">
 						<span class="d-block position-relative">開心寶貝</span>
-						<i class="icon-next font-16 d-xl-none"></i>
 					</a>
 				</li>
 			</ul>

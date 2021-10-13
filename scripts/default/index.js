@@ -1,4 +1,5 @@
 Vue.use(window.VueAwesomeSwiper);
+let loop=indexEduList.length>2?true:false;
 new Vue({
     el: ".wp",
     data: {
@@ -23,7 +24,7 @@ new Vue({
             swiperOptions: {
                 slidesPerView: 1,
                 spaceBetween: 24,
-                loop:true,
+                loop:loop,
                 speed:800,
                 navigation: {
                     nextEl: ".index-edu-section .swiper-button-next",
@@ -83,5 +84,6 @@ new Vue({
         self.bannerSwiper.on('slideChangeTransitionEnd', function() {
             $(self.bannerSwiper.$el).find(".aos-init").addClass("aos-animate");
         })
+        console.log(self.indexEduData.list.length);
     }
 });
