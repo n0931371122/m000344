@@ -11,10 +11,10 @@
         <!-- main ======================================================================================= -->
         <main>
             <h1 class="d-none">張效煌醫師官方網站</h1>
-            <div class="index-banner-section text-white position-relative">
+            <div class="index-banner-section position-relative">
                 <swiper ref="bannerSwiper" :options="indexBannerData.swiperOptions">
                     <swiper-slide v-for="(item, index) in indexBannerData.list" :key="index">
-                        <div class="img background-cover h-100vh" :style="{backgroundImage:'url('+item.cover+')'}">
+                        <a href="" class="img d-block text-white background-cover h-100vh" :style="{backgroundImage:'url('+item.cover+')'}">
                             <div class="text max900 w-100 position-absolute top-50 start-50 translate-middle text-center p-5" data-aos="fade-in" data-aos-delay="100">
                                 <span class="tag d-block SourceSansPro les9 rounded-10 lh19 py-md-2 mb-3 mb-md-4 mx-auto mt-3" data-aos="fade-up" data-aos-delay="0">MASTER OF SURGERY</span>
                                 <p class="NotoSerifTC font-72 les2 lh12 mb-2 mb-md-4 pb-1" data-aos="fade-up" data-aos-delay="150">
@@ -26,7 +26,7 @@
                                     <span class="d-block" data-aos="fade-up" data-aos-delay="200">用創新技術，堅持值得信賴的專業</span>
                                 </p>
                             </div>
-                        </div>
+                        </a>
                     </swiper-slide>
                 </swiper>
                 <div class="d-none d-lg-block swiper-button swiper-button-prev text-white text-hover-primary"></div>
